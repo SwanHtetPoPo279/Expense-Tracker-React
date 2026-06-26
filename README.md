@@ -32,7 +32,9 @@ A modern Expense Tracker application built with React, Vite, and Tailwind CSS. T
 # Search , Filter , Sort , Button to add new , Expenses list
 <img width="1920" height="1080" alt="Screenshot (526)" src="https://github.com/user-attachments/assets/c7ace112-408e-4cd9-9515-a473bc03d637" />
 
+
 # Expense form
+<img width="1920" height="1080" alt="Screenshot (527)" src="https://github.com/user-attachments/assets/65f9ef35-4794-4b5b-93ea-3ce213954fa8" />
 
 
 ## Installation
