@@ -62,9 +62,19 @@ function ExpenseForm({
     closeForm();
   }
 
+  // className={`border p-2 rounded w-full sm:w-auto ${
+  //           darkMode
+  //             ? "bg-gray-800 text-white border-gray-600"
+  //             : "bg-white text-black"
+  //         }`}
+
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center">
-      <div className="bg-white p-6 rounded-lg w-96 space-y-3">
+      <div className={`p-6 rounded-lg w-96 space-y-3 ${
+            darkMode
+              ? "bg-gray-800 text-white border-gray-600"
+              : "bg-white text-black"
+          }`}>
 
         <h2 className="text-xl font-bold">
           {editingExpense ? "Edit" : "New"}
