@@ -18,6 +18,14 @@ export default function PieChartBox({ data }) {
     "#4CAF50",
   ];
 
+  if (!data || data.length === 0) {
+    return (
+      <div className="flex items-center justify-center h-[320px] border rounded text-gray-500">
+        No expenses yet. Start adding your first expense!
+      </div>
+    );
+  }
+
   return (
     <div style={{ width: "100%", height: 320 }}>
       <ResponsiveContainer>
