@@ -3,6 +3,7 @@
 A modern Expense Tracker application built with React, Vite, and Tailwind CSS. This project allows users to manage their daily expenses (monthly and yearly analytics) through a clean and responsive interface.
 
 ## Live Demo
+https://expense-tracker-react-khaki.vercel.app
 
 ## Features
 - CRUD expenses
