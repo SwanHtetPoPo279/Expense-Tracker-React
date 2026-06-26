@@ -1,16 +1,103 @@
-# React + Vite
+## Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Expense Tracker application built with React, Vite, and Tailwind CSS. This project allows users to manage their daily expenses (monthly and yearly analytics) through a clean and responsive interface.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- CRUD expenses
+- Search expenses
+- Filter by category
+- Sort by date and amount
+- Monthly expense analytics
+- Dashboard summary
+- Dark / Light mode
+- Responsive design
+- Local Storage persistence
+- 
 
-## React Compiler
+## Technologies Used
+- React
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- React Icons
+- Recharts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Screenshots
+# Dashboard , Monthly and Yearly analytics , Dark Mode
+<img width="1920" height="1080" alt="Screenshot (525)" src="https://github.com/user-attachments/assets/ee527d89-b6df-4723-acf3-abf92dd9b4b2" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Search , Filter , Sort , Button to add new , Expenses list
+<img width="1920" height="1080" alt="Screenshot (526)" src="https://github.com/user-attachments/assets/c7ace112-408e-4cd9-9515-a473bc03d637" />
+
+# Expense form
+
+
+## Installation
+
+# Clone the repository
+```bash
+git clone https://github.com/SwanHtetPoPo279/Expense-Tracker-React.git
+```
+
+# Go to the project folder
+
+```bash
+cd Expense-Tracker-React
+```
+
+# Install dependencies
+
+```bash
+npm install
+```
+
+# Start the development server
+
+```bash
+npm run dev
+```
+
+## Project Structure
+```
+src/
+│
+├── components/
+│   ├── Dashboard.jsx
+│   ├── ExpenseForm.jsx
+│   ├── ExpenseList.jsx
+│   ├── Filters.jsx
+│   ├── PieChartBox.jsx
+│   └── ThemeToggle.jsx
+│
+├── hooks/
+│   └── useExpenses.js
+│
+├── utils/
+│   └── filters.js
+│
+├── App.jsx
+└── main.jsx
+```
+
+
+## Future Improvements
+- FastAPI backend integration
+- User authentication (JWT)
+- Cloud database (PostgreSQL)
+- User accounts
+- Expense reports
+- Export to PDF/Excel
+- Budget planning
+- 
+
+## Author
+Swan Htet Po Po
+GitHub: https://github.com/SwanHtetPoPo279
+
+
+## License
+This project is open source and available under the MIT License.
+
